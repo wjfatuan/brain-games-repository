@@ -2,13 +2,13 @@
 
 ### RESTRICCIONES TECNICAS
 
--La aplicación funcionará en dispositivos Android 
+- La aplicación funcionará en dispositivos Android 
 
--La aplicación no requerirá conexión permanente a internet para su funcionamiento básico.
+- La aplicación no requerirá conexión permanente a internet para su funcionamiento básico.
 
--Toda la información generada por el usuario (puntajes, progreso, configuraciones) será almacenada de forma local en el dispositivo.
+- Toda la información generada por el usuario (puntajes, progreso, configuraciones) será almacenada de forma local en el dispositivo.
 
--El juego estará optimizado para dispositivos móviles con pantalla táctil.
+- El juego estará optimizado para dispositivos móviles con pantalla táctil.
 
 ---
 
