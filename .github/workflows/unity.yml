@@ -13,8 +13,6 @@ jobs:
       uses: actions/checkout@v4
       with:
         lfs: true
-    - name: Change Path
-      run: cd Proyecto_Brain_Games
     - uses: actions/cache@v3
       with:
         path: Library
@@ -29,6 +27,7 @@ jobs:
         UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
       with:
         targetPlatform: Android
+        projectPath: ./Proyecto_Brain_Games
     - uses: actions/upload-artifact@v4
       with:
         name: app-debug.apk
